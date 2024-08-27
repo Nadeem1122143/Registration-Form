@@ -1,0 +1,150 @@
+
+*,html,body{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+    font-size: Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+
+.error{
+    color:red;
+}
+
+#firstForm{
+    margin:50px 0;
+    /* background-color: #0d6db7; */
+} 
+#formInputs input{
+    width: 530px;
+    height:50px;
+ }
+#formInputs{
+    width: 100%;
+     /* margin:0px 20px;  */
+     display: flex;
+    justify-content:space-between;
+    align-items:center;
+  
+}     
+/* test */
+
+
+
+.registration_header {
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.registration_header h2{
+    color: rgba(0, 0, 0, .85);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.35;
+}
+.iconBar{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    width: 90%;
+}
+.form_logo{
+  width: 250px;
+}
+.icon img{
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+}
+.iconBar button{
+    padding: 3px 10px;
+    border-radius: 20px;
+    background-color:white;
+    color: #0d6db7;
+    border: 1px solid #0d6db7
+
+}
+a #student{
+    height: 25px;
+    width: 40px;
+    color: rgba(0, 0, 255, 0.747);
+    padding:0 3px;
+}
+.spanText{
+    color: #666;
+}
+
+#ulist_tab{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #0d6db7;
+}
+.last-rows{
+    
+    /* width: 100%; */
+    /* margin-top: 20px; */
+    /* margin-left: 20px; */
+}
+.form-control{
+    height: 50px;
+    border: 1px solid #0d6 !important;
+}
+#submitBtn{
+    background-color: #0d6db7;
+    border: none;
+    font-size: 20px !important;
+    outline: none;
+    padding: 10px 30px;
+    width: 100%;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+}
+
+label{
+
+    color: #0d6db7;
+    font-size: 15px;
+}
+
+
+
+#pic-lable-text{
+    color: #0d6db7;
+}
+.picBox{
+    width: 120px;
+    height: 120px;
+    border: 1px dashed wheat;
+    cursor: pointer;
+}
+.picBox:hover{
+    border: 1px dashed #0d6db7;
+}
+.text-upload{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-pic-listBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
